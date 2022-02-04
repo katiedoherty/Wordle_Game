@@ -1,0 +1,2 @@
+# Wordle_Game
+The code picks a random five letter word from a list and the user enters characters to make a random five letter word. if the letters are in the word and in the right position then the letter will turn green, if the letter is in the word but not in the right position then the letter will turn yellow and if the letter is not in the randomly generated word then the letter will turn grey.
