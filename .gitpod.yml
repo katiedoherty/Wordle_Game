@@ -1,7 +1,8 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: echo 'init script' # runs during prebuild
-    command: echo 'start script'
+  - init: 'echo export JAVA_TOOL_OPTIONS=\"$JAVA_TOOL_OPTIONS -Dsun.java2d.xrender=false\" >>/home/gitpod/.bashrc'
+    command: 'source /home/gitpod/.bashrc && mvn package && java -jar target/*with-dependencies.jar'
+  
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 image: gitpod/workspace-full-vnc
