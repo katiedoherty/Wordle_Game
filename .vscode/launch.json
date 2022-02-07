@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch wordle_game",
+            "request": "launch",
+            "mainClass": "wordlepackage.wordle.src.wordle_game",
+            "projectName": "Wordle_Game_b2da0565"
+        },
+        {
+            "type": "java",
             "name": "Launch penalty",
             "request": "launch",
             "mainClass": "wordlepackage.wordle.src.penalty",
