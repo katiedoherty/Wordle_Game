@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "Wordle_Game"
+        },
+        {
+            "type": "java",
             "name": "Launch wordle_game",
             "request": "launch",
             "mainClass": "wordlepackage.wordle.src.wordle_game",

@@ -11,7 +11,7 @@ import java.util.List;
 
 
 
-public class wordle_game extends JPanel {
+public class wordle extends JPanel {
 
 
       public static String randomword()  throws FileNotFoundException{
